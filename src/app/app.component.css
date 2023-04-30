@@ -1,0 +1,80 @@
+.container {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(224, 58, 7);
+}
+
+.grid {
+    margin-top: 5%;
+    margin-left: 42%;
+    width: 280px;
+    height: 30%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2 {
+    width: 65px;
+    height: 65px;
+}
+
+.arrowdown {
+    width: 50px;
+    height: 50px;
+    margin-left: 48%;
+}
+
+.arrowup {
+    margin-top: 5%;
+    width: 50px;
+    height: 50px;
+    margin-left: 48%;
+}
+
+.arrowleft {
+    width: 8.5%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45%;
+}
+
+.middle {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    margin-top: 5%;
+    margin-left: 49%;
+    width: 100px;
+    font-weight: bolder;
+    color: rgb(17, 16, 15);
+}
+
+.win {
+    margin-top: 2%;
+    margin-left: 47%;
+    font-weight: bolder;
+    color: rgb(235, 74, 11);
+}
